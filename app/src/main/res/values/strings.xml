@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Recipe Realm</string>
+    <string name="welcome">WELCOME</string>
+    <string name="to">TO</string>
+    <string name="recipe_realm">RECIPE REALM</string>
+    <string name="let_s_start">LET\'S START</string>
 </resources>
