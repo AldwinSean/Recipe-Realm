@@ -5,14 +5,13 @@
     <string name="recipe_realm">RECIPE REALM</string>
     <string name="let_s_start">LET\'S START</string>
 
-
-    <string name="textViewUsername">Username</string>
-    <string name="textViewRecipeRealmHeader">Recipe Realm</string>
-    <string name="textViewEmail">Email</string>
-    <string name="textViewPassword">Password</string>
-    <string name="buttonSignup">SIGN UP</string>
-    <string name="textViewHaveanaccount">Already have an account?</string>
-    <string name="textViewHaveanaccountLogin">Log in</string>
-
-
+    <string name="recipe_realm_login">RECIPE REALM</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="inputBox_email">Email</string>
+    <string name="password">Password</string>
+    <string name="inputBox_password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up_loginDirectory">Sign Up</string>
 </resources>
