@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/signupimage" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReciperealmHeader"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck">
+
+        <TextView
+            android:id="@+id/textViewRecipeRealmHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            tools:text="@string/textViewRecipeRealmHeader" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutUsername"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutReciperealmHeader">
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:gravity="start|center_vertical"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:text="@string/textViewUsername" />
+
+        <EditText
+            android:id="@+id/textInputUsername"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BEBEBE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEmail"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutUsername">
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:text="@string/textViewEmail" />
+
+        <EditText
+            android:id="@+id/textInputEmail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@id/textViewEmail"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPassword"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutEmail">
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:text="@string/textViewPassword" />
+
+        <EditText
+            android:id="@+id/textInputPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutPassword"
+        tools:text="@string/buttonSignup" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutHaveanaccount"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignup">
+
+        <TextView
+            android:id="@+id/textViewHaveanaccount"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            tools:text="@string/textViewHaveanaccount" />
+
+        <TextView
+            android:id="@+id/textViewHaveanaccountLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            tools:text="@string/textViewHaveanaccountLogin" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
