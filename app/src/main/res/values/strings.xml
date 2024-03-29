@@ -6,12 +6,25 @@
     <string name="let_s_start">LET\'S START</string>
 
     <string name="recipe_realm_login">RECIPE REALM</string>
-    <string name="login">Login</string>
-    <string name="email">Email</string>
+    <string name="loginTitle">LOGIN</string>
+    <string name="emailLogin">Email</string>
     <string name="inputBox_email">Email</string>
-    <string name="password">Password</string>
+    <string name="passwordLogin">Password</string>
     <string name="inputBox_password">Password</string>
     <string name="login_btn">Login</string>
-    <string name="already_have_an_account">Already have an account?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
     <string name="sign_up_loginDirectory">Sign Up</string>
+
+    <string name="recipe_realmSignUpTitle">RECIPE REALM</string>
+    <string name="username_SignUp">Username</string>
+    <string name="inputBoxUsernameSignUp">Username</string>
+    <string name="emailSignUp">Email</string>
+    <string name="inputBoxEmailSignUp">Email</string>
+    <string name="passwordSignup">Password</string>
+    <string name="inputBoxPasswordSignUp">Password</string>
+    <string name="btnSign_up">Sign Up</string>
+    <string name="already_have_an_account_Signup">Already have an account?</string>
+    <string name="signUp_LogInDirectory">Login</string>
+
+
 </resources>
