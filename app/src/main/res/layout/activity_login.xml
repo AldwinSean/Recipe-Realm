@@ -43,7 +43,7 @@
             android:id="@+id/txtViewLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login"
+            android:text="@string/loginTitle"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="32sp" />
@@ -65,7 +65,7 @@
             android:id="@+id/textViewEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/email"
+            android:text="@string/emailLogin"
             android:textColor="@color/white"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="46dp"
@@ -102,7 +102,7 @@
             android:id="@+id/textViewPasswordTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/password"
+            android:text="@string/passwordLogin"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -142,7 +142,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:layout_marginTop="12dp"
-        android:text="@string/already_have_an_account"
+        android:text="@string/dont_have_an_account"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="15sp"
@@ -170,5 +170,17 @@
         app:layout_constraintStart_toEndOf="@+id/txxtViewLoginQuestion"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete just for trial"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txxtViewLoginQuestion" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
