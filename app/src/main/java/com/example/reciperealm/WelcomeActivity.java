@@ -21,5 +21,8 @@ public class WelcomeActivity extends AppCompatActivity {
 
     public void start(View view) {
         startActivity(new Intent(WelcomeActivity.this, LoginActivity.class));
+
+        //delete just for trial
+
     }
 }

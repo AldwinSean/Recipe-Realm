@@ -21,5 +21,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void signupdirectory(View view) {
         startActivity(new Intent(LoginActivity.this, SignupActivity.class));
+
+        // DElete just for trial
     }
 }
